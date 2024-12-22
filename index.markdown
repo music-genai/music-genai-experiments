@@ -4,3 +4,9 @@
 
 # layout: home
 ---
+
+# Music GenAI Experiment Results
+
+## Factors
+- Model Parameter Size
+- Attention Mechanism Type
