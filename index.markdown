@@ -12,11 +12,12 @@
 - Attention Mechanism Type
 
 ## MIDI File
-
-<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
-
-<midi-player
-  src="{{ site.baseurl }}/midi/layla_non_commercial_sample.mid"
-  sound-font visualizer="#myVisualizer">
-</midi-player>
-<midi-visualizer type="piano-roll" id="myVisualizer"></midi-visualizer>
+<div style="margin: 10px; border: 2px solid grey; border-radius: 15px;">
+  <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
+  <midi-visualizer type="piano-roll" id="myVisualizer"></midi-visualizer>
+  <midi-player
+    src="{{ site.baseurl }}/midi/layla_non_commercial_sample.mid"
+    sound-font visualizer="#myVisualizer">
+  </midi-player>
+</div>
+- Acknowledgement: The tool for playing and displaying MIDI files is from [cifkao/html-midi-player](https://github.com/cifkao/html-midi-player){:target="_blank"}.
